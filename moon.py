@@ -28,18 +28,6 @@ def has_permissions(**perms):
     return check(predicate)
 
 
-# manage_guild
-#
-# kick_members
-#
-# ban_members
-#
-# administrator
-#
-# change_nickname
-#
-# manage_nicknames
-
 def get_prefix(client, message):
     with open('config.json', 'r') as f:
         config = json.load(f)

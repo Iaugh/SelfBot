@@ -15,30 +15,12 @@ class lookup(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    # @commands.command()
-    # async def bots(self, ctx):
-    #     my_embed = discord.Embed(
-    #         description=" [__**Click Me!**__](https://discord.com/api/oauth2/authorize?client_id=771697308458811434&permissions=8&scope=bot)",
-    #         color=color)
-    #
-    #     my_embed.add_field(name="Version Code:\n", value="v0.1", inline=False)
-    #
-    #     my_embed.add_field(name="Released On:", value="November 2020", inline=False)
-    #
-    #     my_embed.add_field(name="Servers", value=len(ctx.client.guilds))
-    #
-    #     my_embed.set_footer(text="Made by Cap")
-    #
-    #     my_embed.set_author(name="Xo Info")
-    #
-    #     await ctx.message.channel.send(embed=my_embed)
-
     @commands.command(name='inv')
     async def inv(self, ctx):
         print('inv link generated')
         embed = discord.Embed(
             title="Wanna use this selfbot?",
-            description=" [__Click Me!__](https://discord.gg/ny)",
+            description=" [__Download!__](https://github.com/Iaugh/selfbot)",
             color=color,
             timestamp=datetime.now(),
         )

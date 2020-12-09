@@ -66,6 +66,8 @@ class help(commands.Cog):
         embed.add_field(name="`serverinfo`", value="*Purges amount of messages*", inline=False)
         embed.add_field(name="`userinfo`", value="*Purges the bots messages*", inline=False)
         embed.add_field(name="`bot`", value="*Gives you self bot information*", inline=False)
+        embed.add_field(name="`stream`", value="*Change status to streaming*", inline=False)
+        embed.add_field(name="`inv`", value="*Download the selfbot*", inline=False)
 
         # embed.add_field(name="",value="",inline=False)
         embed.set_footer(text='𝙞𝙣𝙛𝙤 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨')
