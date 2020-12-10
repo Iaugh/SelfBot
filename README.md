@@ -9,31 +9,31 @@ Discord Py
 Commands
 
 <t>Categories</t>
->Help - To Show All The Categories
-Info - Check Info Commands
-Fun - Check Fun Commands
-User - Check User Commands
+>Help - To Show All The Categories<br>
+Info - Check Info Commands<br>
+Fun - Check Fun Commands<br>
+User - Check User Commands<br>
 
 <t>Info</t>
->serverinfo - Purges amount of messages
-userinfo - Purges the bots messages
-bot - Gives you self bot information
-stream - Change status to streaming
-inv - Download the selfbot
+>serverinfo - Purges amount of messages<br>
+userinfo - Purges the bots messages<br>
+bot - Gives you self bot information<br>
+stream - Change status to streaming<br>
+inv - Download the selfbot<br>
 
 <t>Fun</t>
->dog - Gives you a random dog image ʕ•́ᴥ•̀ʔっ
-kiss - Kiss someone <3
-hug - Hug someone ^.^
-slap - Slap someone </3
-feed - Feed someone -.-
-cuddle - Cuddle with someone ⊂（♡⌂♡）⊃
-tickle - Tickle someone ♡
-pat - Pat someone (ㆆ_ㆆ)
-poll - Start a poll (ง︡'-'︠)ง
+>dog - Gives you a random dog image ʕ•́ᴥ•̀ʔっ<br>
+kiss - Kiss someone <3<br>
+hug - Hug someone ^.^<br>
+slap - Slap someone </3<br>
+feed - Feed someone -.-<br>
+cuddle - Cuddle with someone ⊂（♡⌂♡）⊃<br>
+tickle - Tickle someone ♡<br>
+pat - Pat someone (ㆆ_ㆆ)<br>
+poll - Start a poll (ง︡'-'︠)ง<br>
 
 <t>User</t>
->av - Avatar someone
-purge - Purges amount of messages
-snipe - Snipe a message
-embed - Embed a message, Title | Description
+>av - Avatar someone<br>
+purge - Purges amount of messages<br>
+snipe - Snipe a message<br>
+embed - Embed a message, Title | Description<br>
