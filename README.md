@@ -6,7 +6,7 @@ Discord Py
 
 `Then run moon.bat to start the bot`
 
-Commands
+`Commands
 
 <t>Categories</t>
 >Help - To Show All The Categories<br>
@@ -36,4 +36,4 @@ poll - Start a poll (ง︡'-'︠)ง<br>
 >av - Avatar someone<br>
 purge - Purges amount of messages<br>
 snipe - Snipe a message<br>
-embed - Embed a message, Title | Description<br>
+embed - Embed a message, Title | Description<br>`
