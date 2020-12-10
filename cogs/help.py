@@ -22,7 +22,7 @@ class help(commands.Cog):
         embed.set_thumbnail(url=ctx.bot.user.avatar_url)
         embed.add_field(name="`Info`", value="*Check Info Commands*", inline=False)
         embed.add_field(name="`Fun`", value="*Check Fun Commands*", inline=False)
-        embed.add_field(name="`User`", value="*Check Antinuke Commands*", inline=False)
+        embed.add_field(name="`User`", value="*Check User Commands*", inline=False)
 
         embed.set_footer(text='𝙝𝙚𝙡𝙥 𝙘𝙖𝙩𝙚𝙜𝙤𝙧𝙞𝙚𝙨')
         await ctx.send(embed=embed)
