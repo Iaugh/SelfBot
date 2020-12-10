@@ -1,4 +1,4 @@
-Discord Py
+`Discord Py`
 
 `Run install.bat which will install all if not most modules`
 
