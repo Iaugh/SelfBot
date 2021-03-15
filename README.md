@@ -1,4 +1,4 @@
-`Discord Py`
+`Discord Python 3.8`
 
 `Run install.bat which will install all if not most modules`
 
@@ -20,6 +20,15 @@
 `bot - Gives you self bot information`<br>
 `stream - Change status to streaming`<br>
 `inv - Download the selfbot`<br>
+
+<t>`Nsfw`</t>
+>`anal`<br>
+`lewd`<br>
+`trap`<br>
+`trap`<br>
+`foxgirl`<br>
+`neko`<br>
+`pussy`<br>
 
 <t>`Fun`</t>
 >`dog - Gives you a random dog image ʕ•́ᴥ•̀ʔっ`<br>

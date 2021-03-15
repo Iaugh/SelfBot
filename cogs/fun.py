@@ -92,6 +92,17 @@ class fun(commands.Cog):
         em.set_image(url=res['url'])
         await ctx.send(embed=em)
 
+    @commands.command()
+    async def lizard(sself, ctx): 
+        await ctx.message.delete()
+        r = requests.get("https://nekos.life/api/v2/img/lizard").json()
+        em = discord.Embed(description=f'', color=color)
+        em.set_image(url=str(r['url']))
+        try:
+            await ctx.send(embed=em)
+        except:
+            await ctx.send(str(r['message']))   
+
 
 def setup(client):
     client.add_cog(fun(client))

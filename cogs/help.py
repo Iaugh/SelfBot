@@ -23,6 +23,8 @@ class help(commands.Cog):
         embed.add_field(name="`Info`", value="*Check Info Commands*", inline=False)
         embed.add_field(name="`Fun`", value="*Check Fun Commands*", inline=False)
         embed.add_field(name="`User`", value="*Check User Commands*", inline=False)
+        embed.add_field(name="`Nsfw`", value="*Check Nsfw Commands*", inline=False)
+
 
         embed.set_footer(text='𝙝𝙚𝙡𝙥 𝙘𝙖𝙩𝙚𝙜𝙤𝙧𝙞𝙚𝙨')
         await ctx.send(embed=embed)
@@ -42,6 +44,21 @@ class help(commands.Cog):
         embed.add_field(name="`poll`", value="*Start a poll (ง︡'-'︠)ง*", inline=False)
         # embed.add_field(name="",value="",inline=False)
         embed.set_footer(text='𝙛𝙪𝙣 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨')
+
+        await ctx.send(embed=embed)
+
+    @commands.command()
+    async def nsfw(self, ctx):
+        embed = discord.Embed(title="`Nsfw`", color=color, inline=True)
+        embed.set_thumbnail(url=ctx.bot.user.avatar_url)
+        embed.add_field(name="`anal`", value="*view anal*", inline=False)
+        embed.add_field(name="`lewd`", value="*some anime hentai command*", inline=False)
+        embed.add_field(name="`trap`", value="*get trapped*", inline=False)
+        embed.add_field(name="`neko`", value="*you weeb*", inline=False)
+        embed.add_field(name="`pussy`", value="*you need some pussy*", inline=False)
+
+        # embed.add_field(name="",value="",inline=False)
+        embed.set_footer(text='𝙣𝙨𝙛𝙬 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨')
 
         await ctx.send(embed=embed)
 
